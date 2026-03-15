@@ -28,21 +28,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Click **Commit changes**
-
----
-
-### Step 3 — Manually Run It
-1. Click **Actions** tab
-2. Click **Generate Snake** in the left sidebar
-3. Click **Run workflow** dropdown → **Run workflow**
-4. Wait ~60 seconds for green ✅
-
----
-
-### Step 4 — Verify it worked
-After green ✅, visit:
-```
-https://github.com/harshaddhonde4/harshaddhonde4/tree/output
